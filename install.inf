@@ -1,0 +1,47 @@
+[info]
+title=LineOps
+desc=Line operations
+type=cudatext-plugin
+subdir=cuda_lineops
+homepage=
+
+[item1]
+section=commands
+caption=LineOps\Remove empty line
+method=lineops_remove_empty
+
+[item2]
+section=commands
+caption=LineOps\Sort
+method=lineops_sort_asc
+
+[item3]
+section=commands
+caption=LineOps\Sort (reverse)
+method=lineops_sort_desc
+
+[item4]
+section=commands
+caption=LineOps\Remove consecutive duplicate
+method=lineops_remove_dup
+
+[item5]
+section=commands
+caption=LineOps\Remove all duplicate
+method=lineops_remove_dup_all
+
+[item10]
+section=commands
+caption=LineOps\Trim spaces: all
+method=lineops_trim_all
+
+[item11]
+section=commands
+caption=LineOps\Trim spaces: left
+method=lineops_trim_left
+
+[item12]
+section=commands
+caption=LineOps\Trim spaces: right
+method=lineops_trim_right
+
